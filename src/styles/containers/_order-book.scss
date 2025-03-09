@@ -1,0 +1,27 @@
+.orderbook-container {
+  background-color: #121212;
+  color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.volume {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.orderbook {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bids h3,
+.asks h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
